@@ -1,0 +1,198 @@
+ Kilka miesięcy temu , w nowej pracy , próbowałam zeswatać koleżankę z kolegą .
+Kilka -> num:pl:acc:m3:rec
+próbowałam -> verbfin:sg:pri:past:ind:imperf:nrefl:aff:f
+temu -> prep:acc
+kolegą -> noun:sg:inst:m1
+koleżankę -> noun:sg:acc:f
+nowej -> adj:sg:loc:f:pos
+miesięcy -> noun:pl:gen:m3
+, -> interp:
+zeswatać -> inf:perf:nrefl:aff
+. -> interp:
+w -> prep:loc:nwok
+z -> prep:inst:nwok
+pracy -> noun:sg:loc:f
+##############
+ Umówiliśmy się nawet w gronie sześciu osób na piwo wieczorową porą .
+Umówiliśmy się -> verbfin:pl:pri:past:ind:perf:refl:aff:m1
+nawet -> qub:
+sześciu -> num:pl:gen:f:congr
+na -> prep:acc
+Umówiliśmy -> verbfin:pl:pri:past:ind:perf:nrefl:aff:m1
+osób -> noun:pl:gen:f
+. -> interp:
+w -> prep:loc:nwok
+wieczorową -> adj:sg:inst:f:pos
+gronie -> noun:sg:loc:n
+porą -> noun:sg:inst:f
+piwo -> noun:sg:acc:n
+##############
+ Byłam święcie przekonana , że ta para idealnie do siebie pasuje .
+do -> prep:gen
+święcie -> adv:pos
+para -> noun:sg:nom:f
+, -> interp:
+. -> interp:
+przekonana -> adj:sg:nom:f:pos
+idealnie -> adv:pos
+Byłam -> verbfin:sg:pri:past:ind:imperf:nrefl:aff:f
+że -> comp:
+pasuje -> verbfin:sg:ter:pres:ind:imperf:nrefl:aff
+ta -> adj:sg:nom:f:pos
+##############
+ Chłopak był cudowny , w moim typie , a dziewczyna także wspaniała ( moja wieloletnia przyjaciółka ) .
+a -> conj:
+dziewczyna -> noun:sg:nom:f
+) -> interp:
+( -> interp:
+, -> interp:
+cudowny -> adj:sg:nom:m1:pos
+. -> interp:
+Chłopak -> noun:sg:nom:m1
+wspaniała -> adj:sg:nom:f:pos
+także -> qub:
+był -> verbfin:sg:ter:past:ind:imperf:nrefl:aff:m1
+w -> prep:loc:nwok
+moja -> adj:sg:nom:f:pos
+wieloletnia -> adj:sg:nom:f:pos
+moim -> adj:sg:loc:m3:pos
+typie -> noun:sg:loc:m3
+przyjaciółka -> noun:sg:nom:f
+##############
+ Gdy jednak siedzieliśmy już przy stoliku , nieco podchmieleni , zaczęłam bawić się leżącym na środku stolika świecznikiem .
+podchmieleni -> ppas:pl:nom:m1:perf:nrefl:aff
+nieco -> adv:
+świecznikiem -> noun:sg:inst:m3
+Gdy -> adv:
+bawić się -> inf:imperf:refl:aff
+, -> interp:
+stoliku -> noun:sg:loc:m3
+. -> interp:
+stolika -> noun:sg:gen:m3
+już -> qub:
+na środku -> prep:gen
+przy -> prep:loc
+zaczęłam -> verbfin:sg:pri:past:ind:perf:nrefl:aff:f
+bawić -> inf:imperf:nrefl:aff
+jednak -> conj:
+leżącym -> pact:sg:loc:m3:imperf:nrefl:aff
+siedzieliśmy -> verbfin:pl:pri:past:ind:imperf:nrefl:aff:m1
+##############
+ W tym samym momencie zrobił to ten chłopak , a nasze dłonie niechcący się spotkały .
+a -> conj:
+spotkały -> verbfin:pl:ter:past:ind:perf:nrefl:aff:f
+nasze -> adj:pl:nom:f:pos
+ten -> adj:sg:nom:m1:pos
+chłopak -> noun:sg:nom:m1
+tym samym -> adj:sg:loc:m3:pos
+momencie -> noun:sg:loc:m3
+, -> interp:
+to -> noun:sg:acc:n
+się spotkały -> verbfin:pl:ter:past:ind:perf:refl:aff:f
+W -> prep:loc:nwok
+. -> interp:
+zrobił -> verbfin:sg:ter:past:ind:perf:nrefl:aff:m1
+dłonie -> noun:pl:nom:f
+niechcący -> adv:
+##############
+ Alkohol zadziałał i nie wiedząc czemu , chwyciliśmy się za dłonie .
+dłonie -> noun:pl:acc:f
+zadziałał -> verbfin:sg:ter:past:ind:perf:nrefl:aff:m3
+chwyciliśmy się -> verbfin:pl:pri:past:ind:perf:refl:aff:m1
+i -> conj:
+, -> interp:
+chwyciliśmy -> verbfin:pl:pri:past:ind:perf:nrefl:aff:m1
+za -> prep:acc
+wiedząc -> pcon:imperf:nrefl:aff
+. -> interp:
+nie wiedząc -> pcon:imperf:nrefl:neg
+czemu -> adv:
+Alkohol -> noun:sg:nom:m3
+##############
+ Uniosłam oczy znad świeczki i spojrzałam w jego oczy .
+znad -> prep:gen:nwok
+Uniosłam -> verbfin:sg:pri:past:ind:perf:nrefl:aff:f
+i -> conj:
+jego -> ppron3:sg:gen:m1:ter:akc:npraep
+świeczki -> noun:sg:gen:f
+oczy -> noun:pl:acc:n
+. -> interp:
+w -> prep:acc:nwok
+spojrzałam -> verbfin:sg:pri:past:ind:perf:nrefl:aff:f
+##############
+ Po raz pierwszy tak bardzo uderzyło mnie odczucie , że to są najpiękniejsze oczy na całym świecie .
+to są -> pred:pres:ind:imperf:aff
+odczucie -> noun:sg:nom:n
+na -> prep:loc
+, -> interp:
+uderzyło -> verbfin:sg:ter:past:ind:perf:nrefl:aff:n
+oczy -> noun:pl:nom:n
+. -> interp:
+bardzo -> adv:pos
+świecie -> noun:sg:loc:m3
+najpiękniejsze -> adj:pl:nom:n:sup
+Po raz pierwszy -> adv:
+mnie -> ppron12:sg:acc:m1:pri:akc
+całym -> adj:sg:loc:m3:pos
+że -> comp:
+tak -> adv:pos
+##############
+ I zakochałam się .
+I -> conj:
+zakochałam -> verbfin:sg:pri:past:ind:perf:nrefl:aff:f
+. -> interp:
+zakochałam się -> verbfin:sg:pri:past:ind:perf:refl:aff:f
+##############
+ Swatką jestem marną , bo kilka dni po tym incydencie postanowiliśmy zostać parą i jesteśmy nią cały czas .
+kilka -> num:pl:acc:m3:rec
+cały -> adj:sg:acc:m3:pos
+nią -> ppron3:sg:inst:f:ter:akc:praep
+tym -> adj:sg:loc:m3:pos
+i -> conj:
+marną -> noun:sg:inst:f
+Swatką -> noun:sg:inst:f
+bo -> comp:
+dni -> noun:pl:gen:m3
+, -> interp:
+. -> interp:
+jesteśmy -> verbfin:pl:pri:pres:ind:imperf:nrefl:aff
+jestem -> verbfin:sg:pri:pres:ind:imperf:nrefl:aff
+incydencie -> noun:sg:loc:m3
+zostać -> inf:perf:nrefl:aff
+postanowiliśmy -> verbfin:pl:pri:past:ind:perf:nrefl:aff:m1
+czas -> noun:sg:acc:m3
+po -> prep:loc
+parą -> noun:sg:inst:f
+##############
+ Okazało się , że on już od jakiegoś czasu się we mnie podkochiwał .
+on -> ppron3:sg:nom:m1:ter:akc:npraep
+we -> prep:loc:wok
+czasu -> noun:sg:gen:m3
+się -> qub:
+od -> prep:gen:nwok
+, -> interp:
+. -> interp:
+Okazało -> verbfin:sg:ter:past:ind:perf:nrefl:aff:n
+już -> qub:
+podkochiwał -> verbfin:sg:ter:past:ind:imperf:nrefl:aff:m1
+mnie -> ppron12:sg:loc:m1:pri
+Okazało się -> verbfin:sg:ter:past:ind:perf:refl:aff:n
+jakiegoś -> adj:sg:gen:m3:pos
+że -> comp:
+##############
+ A moja przyjaciółka przyznała , że jej się i tak nie podobał : )
+A -> conj:
+się -> qub:
+: -> interp:
+podobał -> verbfin:sg:ter:past:ind:imperf:nrefl:aff:m3
+i -> conj:
+, -> interp:
+nie podobał -> verbfin:sg:ter:past:ind:imperf:nrefl:neg:m3
+) -> interp:
+przyznała -> verbfin:sg:ter:past:ind:perf:nrefl:aff:f
+moja -> adj:sg:nom:f:pos
+tak -> adv:pos
+jej -> ppron3:sg:dat:f:ter:akc:npraep
+przyjaciółka -> noun:sg:nom:f
+że -> comp:
+##############

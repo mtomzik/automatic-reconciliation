@@ -1,0 +1,73 @@
+On	space
+	ON	subst:pl:acc:m3
+	ON	subst:pl:dat:m3
+	ON	subst:pl:gen:m3
+	ON	subst:pl:inst:m3
+	ON	subst:pl:loc:m3
+	ON	subst:pl:nom:m3
+	ON	subst:pl:voc:m3
+	ON	subst:sg:acc:m3
+	ON	subst:sg:dat:m3
+	ON	subst:sg:gen:m3
+	ON	subst:sg:inst:m3
+	ON	subst:sg:loc:m3
+	ON	subst:sg:nom:m3
+	ON	subst:sg:voc:m3
+	on	adj:sg:acc:m3:pos
+	on	adj:sg:nom:m1:pos
+	on	adj:sg:nom:m2:pos
+	on	adj:sg:nom:m3:pos
+	on	adj:sg:voc:m1:pos
+	on	adj:sg:voc:m2:pos
+	on	adj:sg:voc:m3:pos
+	on	ppron3:sg:nom:m1:ter:akc:npraep	disamb
+	on	ppron3:sg:nom:m1:ter:akc:praep
+	on	ppron3:sg:nom:m1:ter:nakc:npraep
+	on	ppron3:sg:nom:m1:ter:nakc:praep
+	on	ppron3:sg:nom:m2:ter:akc:npraep
+	on	ppron3:sg:nom:m2:ter:akc:praep
+	on	ppron3:sg:nom:m2:ter:nakc:npraep
+	on	ppron3:sg:nom:m2:ter:nakc:praep
+	on	ppron3:sg:nom:m3:ter:akc:npraep
+	on	ppron3:sg:nom:m3:ter:akc:praep
+	on	ppron3:sg:nom:m3:ter:nakc:npraep
+	on	ppron3:sg:nom:m3:ter:nakc:praep
+był	space
+	być	praet:sg:m1:imperf	disamb
+	być	praet:sg:m2:imperf
+	być	praet:sg:m3:imperf
+by	none
+	by	qub	disamb
+bardzo	space
+	bardzo	adv
+	bardzo	adv:pos	disamb
+męczący	space
+	męczyć	pact:pl:nom:m1:imperf:aff
+	męczyć	pact:pl:nom:m1:imperf:neg
+	męczyć	pact:pl:voc:m1:imperf:aff
+	męczyć	pact:pl:voc:m1:imperf:neg
+	męczyć	pact:sg:acc:m3:imperf:aff
+	męczyć	pact:sg:nom:m1:imperf:aff
+	męczyć	pact:sg:nom:m1:imperf:neg
+	męczyć	pact:sg:nom:m2:imperf:aff
+	męczyć	pact:sg:nom:m2:imperf:neg
+	męczyć	pact:sg:nom:m3:imperf:aff
+	męczyć	pact:sg:nom:m3:imperf:neg
+	męczyć	pact:sg:voc:m1:imperf:aff
+	męczyć	pact:sg:voc:m1:imperf:neg
+	męczyć	pact:sg:voc:m2:imperf:aff
+	męczyć	pact:sg:voc:m2:imperf:neg
+	męczyć	pact:sg:voc:m3:imperf:aff
+	męczyć	pact:sg:voc:m3:imperf:neg
+	męczący	adj:pl:nom:m1:pos
+	męczący	adj:pl:voc:m1:pos
+	męczący	adj:sg:acc:m3:pos
+	męczący	adj:sg:nom:m1:pos	disamb
+	męczący	adj:sg:nom:m2:pos
+	męczący	adj:sg:nom:m3:pos
+	męczący	adj:sg:voc:m1:pos
+	męczący	adj:sg:voc:m2:pos
+	męczący	adj:sg:voc:m3:pos
+.	space
+	.	interp	disamb
+
