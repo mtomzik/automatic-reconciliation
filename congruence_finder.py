@@ -13,7 +13,7 @@ def check_if_word_exists_in_sentence(word, input_sentence) :
 	else :
 		return False
 
-def is_word_a_noun(word, tags) :
+def is_word_a_noun(word, tags) : 
 	subst_tag = tags.split(":")[0]
 	return (subst_tag in ["subst", "noun"])
 
@@ -49,16 +49,16 @@ def check_if_words_are_in_congruence(base_word, base_word_tags, checked_word, ch
 		return False
 
 def find_congruent_words(word, sentence_dictionary) :
-	#sentence_dictionary jest w formie slowo -> tagi
+	#sentence_dictionary jest w formie slowo -> (tagi, base)
 	congruent_words = {}
 	if (word not in sentence_dictionary.keys()) :
 		return {}
 	else :
 		congruent_words[word] = []
-		word_tags = sentence_dictionary[word]
+		word_tags = sentence_dictionary[word][0]
 		for i, j in sentence_dictionary.items() : 
 			checked_word = i
-			checked_word_tags = j
+			checked_word_tags = j[0]
 			if(check_if_words_are_in_congruence(word, word_tags, checked_word, checked_word_tags)) : 
 				congruent_words[word].append(checked_word)
 		return congruent_words

@@ -36,13 +36,14 @@ def solve_conflicts(lines_list) :
 				lines_list.remove(lines_list[i]) #te tagi są takie same, konflikt jest z powodu np. archaicznej formy albo nazwy własnej
 				return lines_list
 
-def prepare_tags(lines_list) :
+def prepare_tags(lines_list) : #struktura postaci słowo -> (tagi, wersja podstawowa)
 	tags = {}
 	paired = chunks(solve_conflicts(lines_list), 2)
 	for i in paired : 
 		key = i[0][0]
 		value = i[1][1]
-		tags[key] = value
+		base_form = i[1][0]
+		tags[key] = (value, base_form)
 	return tags
 
 def parse_concraft_output() : 
@@ -52,10 +53,15 @@ def parse_concraft_output() :
 		lines = get_lines_with_base_words(tagged)
 		return prepare_tags(lines)
 
+def print_dic(dic) : 
+	for i, j in dic.items() : 
+		print i + " -> " + str(j)
+
 # file_n = "plain.txt"
 # file_o = "sentenced.txt"
 # call_toki(file_n, file_o)
 # sentences = parse_toki_output(file_o)
 # for sentence in sentences : 
 # 	call_concraft(sentence)
-# 	parse_concraft_output()
+# 	tmp = parse_concraft_output()
+# 	print_dic(tmp)

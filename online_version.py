@@ -26,5 +26,9 @@ def parse_multiservice_output(output) :
   for i in paragraphs[0]["sentences"] : 
     for j in i["words"] :
       if (len(j["chosenInterpretation"]["ctag"]) != "interp") : 
-        tags[j["orth"].encode("utf-8")] = j["chosenInterpretation"]["ctag"].lower()+":"+j["chosenInterpretation"]["msd"]
+        key = j["orth"].encode("utf-8")
+        value = j["chosenInterpretation"]["ctag"].lower()+":"+j["chosenInterpretation"]["msd"]
+        base_form = j["chosenInterpretation"]["base"]
+        # print key + " -> " + str(value) + " -> " + base_form
+        tags[key] = (value, base_form)
   return tags

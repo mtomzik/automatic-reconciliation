@@ -21,6 +21,10 @@ def pretty_print(lista) :
 		res = res + " " + i
 	return res
 
+def pretty_print_d(dict) :
+	for i, j in dict.items() : 
+		print i + " -> " + str(j)
+
 # print "processing started"
 file_n = "plain.txt"
 file_o = "sentenced.txt"
@@ -33,7 +37,9 @@ for sentence in sentences :
 	# concraft = call_concraft(sentence)
 	sentence_dictionary = parse_multiservice_output(multiservice)
 	# sentence_dictionary = parse_concraft_output()
+	# pretty_print_d(sentence_dictionary)
 	con = find_congruent_words("sprawą", sentence_dictionary)
+	# print len(con)
 	for i, j in con.items() : 
 		print i + " -> " + pretty_print(j)
 	# for i, j in  parse_multiservice_output(multiservice).items() : 
