@@ -21,7 +21,6 @@ def call_multiservice(sentence, tagger):
 def parse_multiservice_output(output) :
   tagged = json.loads(output)
   tags = {}
-  # print json.dumps(tagged, indent=4, sort_keys=True)
   paragraphs = tagged["paragraphs"]
   for i in paragraphs[0]["sentences"] : 
     for j in i["words"] :
@@ -29,6 +28,5 @@ def parse_multiservice_output(output) :
         key = j["orth"].encode("utf-8")
         value = j["chosenInterpretation"]["ctag"].lower()+":"+j["chosenInterpretation"]["msd"]
         base_form = j["chosenInterpretation"]["base"]
-        # print key + " -> " + str(value) + " -> " + base_form
         tags[key] = (value, base_form)
   return tags
