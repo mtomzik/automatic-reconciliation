@@ -23,8 +23,3 @@ def get_synonymes_for_word(word, synonyms_list) :
 			synonyms.extend(current_group)
 	return list(set(synonyms))
 
-# test = prepare_list()
-# syn = get_synonymes_for_word("irytować", test)
-# print len(syn)
-# for i in syn : 
-# 	print i
