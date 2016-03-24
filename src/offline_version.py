@@ -40,7 +40,7 @@ def prepare_tags(lines_list) : #struktura postaci słowo -> (tagi, wersja podsta
 	tags = {}
 	paired = chunks(solve_conflicts(lines_list), 2)
 	for i in paired : 
-		key = i[0][0]
+		key = i[0][0].encode("utf-8")
 		value = i[1][1]
 		base_form = i[1][0]
 		tags[key] = (value, base_form)
@@ -52,16 +52,3 @@ def parse_concraft_output() :
 		tagged = concrafted.readlines() 
 		lines = get_lines_with_base_words(tagged)
 		return prepare_tags(lines)
-
-def print_dic(dic) : 
-	for i, j in dic.items() : 
-		print i + " -> " + str(j)
-
-# file_n = "plain.txt"
-# file_o = "sentenced.txt"
-# call_toki(file_n, file_o)
-# sentences = parse_toki_output(file_o)
-# for sentence in sentences : 
-# 	call_concraft(sentence)
-# 	tmp = parse_concraft_output()
-# 	print_dic(tmp)

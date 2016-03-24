@@ -6,14 +6,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 
 #znajduje wyrazy w związku zgody z zadanym
-
-def check_if_word_exists_in_sentence(word, input_sentence) :
-	if word in get_words_from_sentence(input_sentence) :
-		return True
-	else :
-		return False
-
-def is_word_a_noun(word, tags) : 
+def is_word_a_noun(word, tags) :
 	subst_tag = tags.split(":")[0]
 	return (subst_tag in ["subst", "noun"])
 
@@ -51,13 +44,9 @@ def check_if_words_are_in_congruence(base_word, base_word_tags, checked_word, ch
 def find_congruent_words(word, sentence_dictionary, word_tags) :
 	#sentence_dictionary jest w formie slowo -> (tagi, base)
 	congruent_words = {}
-	# if (word not in sentence_dictionary.keys()) :
-	# 	return {}
-	# else :
 	congruent_words[word] = []
-	# word_tags = sentence_dictionary[word.encode("utf-8")][0]
-	for i, j in sentence_dictionary.items() : 
-		checked_word = i
+	for i, j in sentence_dictionary.items() :
+		checked_word = i.encode("utf-8")
 		checked_word_tags = j[0]
 		if(check_if_words_are_in_congruence(word, word_tags, checked_word, checked_word_tags)) : 
 			congruent_words[word].append(checked_word)
