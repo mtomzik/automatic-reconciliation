@@ -20,7 +20,6 @@ sys.setdefaultencoding("utf-8")
 
 #testy jak to się wszystko integruje
 #dostępne taggery [wersja online]: "WCRFT", "Pantera", "Concrafr", "WMBT", "Polita"
-#dostępne narzędzia do koreferencji: "Ruler", "Bartek"
 
 # print "processing started"
 file_n = "plain.txt"
@@ -42,8 +41,9 @@ for sentence in sentences :
         word_info = coreference_finder.get_word_info(word, sentence_dictionary)
         word_form = word_info[0]
         word_tags = word_info[1]
-for sentence in sentences :
-    concraft = call_concraft(sentence)
-    structure = parse_concraft_output()
-    congruent_words = find_congruent_words(word_form, structure, word_tags)
-    print(print_utils.pretty_print_congruence_dictionary(congruent_words))
+
+# for sentence in sentences :
+#     concraft = call_concraft(sentence)
+#     structure = parse_concraft_output()
+#     congruent_words = find_congruent_words(word_form, structure, word_tags)
+#     print(print_utils.pretty_print_congruence_dictionary(congruent_words))
