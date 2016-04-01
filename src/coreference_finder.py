@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
+import offline_version
+from offline_version import *
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
@@ -31,7 +33,7 @@ def check_if_noun_has_the_same_tags(word_tags, noun, sentence_dictionary) : #czy
     word_tags_splitted = word_tags.split(":")
     if(splitted[0] in ["noun", "subst"] and checked_tags == word_tags) :
         return True
-    elif(splitted(":")[0] == "ppron3") :
+    elif(splitted[0] == "ppron3") :
         i = 1
         is_equal = True
         while(is_equal and i <4) :
@@ -42,3 +44,13 @@ def check_if_noun_has_the_same_tags(word_tags, noun, sentence_dictionary) : #czy
     else :
         return  False
 
+def get_word_info_from_first_occurence(word, sentences) : #word to słowo podane, sentences to lista zdań do przeszukania
+    for sentence in sentences :
+        concraft = call_concraft(sentence)
+        sentence_dictionary = parse_concraft_output()
+        for k in sentence_dictionary.keys() :
+            tags = sentence_dictionary[k][0]
+            base_form = sentence_dictionary[k][1]
+            if(base_form == word) :
+                return (tags, sentences.index(sentence))
+    return []
