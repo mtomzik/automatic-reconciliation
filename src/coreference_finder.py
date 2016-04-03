@@ -25,32 +25,38 @@ def check_if_sententence_has_other_noun_or_ppron(sentence_dictionary) : #czy w z
             nouns.append(k)
     return nouns
 
-def check_if_noun_has_the_same_tags(word_tags, noun, sentence_dictionary) : #czy znaleziony w zdaniu rzeczownik jest w tej samej formie co szukany
-    #word_tags -> tagi pierwotnego słowa
-    #noun -> rzeczownik znaleziony w zdaniu
-    checked_tags = sentence_dictionary[noun][0]
-    splitted = checked_tags.split(":")
-    word_tags_splitted = word_tags.split(":")
-    if(splitted[0] in ["noun", "subst"] and checked_tags == word_tags) :
-        return True
-    elif(splitted[0] == "ppron3") :
-        i = 1
-        is_equal = True
-        while(is_equal and i <4) :
-            if(not(splitted[i]==word_tags_splitted[i])) :
-                return False
-            i += 1
-        return is_equal
-    else :
-        return  False
+def mark_sentences_to_refactor(word, data_structure) :
+    for entity in data_structure :
+        dictionary = entity[1]
+        if(find_occurence(word, dictionary)) :
+            entity[-1] = True
 
-def get_word_info_from_first_occurence(word, sentences) : #word to słowo podane, sentences to lista zdań do przeszukania
-    for sentence in sentences :
-        concraft = call_concraft(sentence)
-        sentence_dictionary = parse_concraft_output()
-        for k in sentence_dictionary.keys() :
-            tags = sentence_dictionary[k][0]
-            base_form = sentence_dictionary[k][1]
-            if(base_form == word) :
-                return (tags, sentences.index(sentence))
-    return []
+# def check_if_noun_has_the_same_tags(word_tags, noun, sentence_dictionary) : #czy znaleziony w zdaniu rzeczownik jest w tej samej formie co szukany
+#     #word_tags -> tagi pierwotnego słowa
+#     #noun -> rzeczownik znaleziony w zdaniu
+#     checked_tags = sentence_dictionary[noun][0]
+#     splitted = checked_tags.split(":")
+#     word_tags_splitted = word_tags.split(":")
+#     if(splitted[0] in ["noun", "subst"] and checked_tags == word_tags) :
+#         return True
+#     elif(splitted[0] == "ppron3") :
+#         i = 1
+#         is_equal = True
+#         while(is_equal and i <4) :
+#             if(not(splitted[i]==word_tags_splitted[i])) :
+#                 return False
+#             i += 1
+#         return is_equal
+#     else :
+#         return  False
+#
+# def get_word_info_from_first_occurence(word, sentences) : #word to słowo podane, sentences to lista zdań do przeszukania
+#     for sentence in sentences :
+#         concraft = call_concraft(sentence)
+#         sentence_dictionary = parse_concraft_output()
+#         for k in sentence_dictionary.keys() :
+#             tags = sentence_dictionary[k][0]
+#             base_form = sentence_dictionary[k][1]
+#             if(base_form == word) :
+#                 return (tags, sentences.index(sentence))
+#     return []
