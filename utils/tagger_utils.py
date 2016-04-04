@@ -1,8 +1,8 @@
 import sys
-import src.offline_version
-import src.online_version
-from src.online_version import *
-from src.offline_version import *
+import src.concraft_tagging
+import src.multiservice_tagging
+from src.multiservice_tagging import *
+from src.concraft_tagging import *
 from check_utils import check_tagger
 reload(sys)
 sys.setdefaultencoding("utf-8")

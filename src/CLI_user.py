@@ -3,7 +3,7 @@ import sys
 import codecs
 import os
 from sentence_tokenizing import call_toki, parse_toki_output
-from offline_version import call_concraft, parse_concraft_output
+from concraft_tagging import call_concraft, parse_concraft_output
 from coreference_finder import *
 from utils.check_utils import *
 from utils.tagger_utils import *
@@ -46,9 +46,7 @@ try :
         if(not(check_tagger(tagger))) :
             raise IOError("\t > Podałeś złą nazwę taggera. Dopuszczalne formy to: WCFT, WMBT, Polita, Pantera, Concraft")
     prepared_sentences = tag(sentences, version, tagger)
-    mark_sentences_to_refactor(word_versions[0], prepared_sentences)
-    mark_sentences_to_refactor(word_versions[1], prepared_sentences)
-    for i in prepared_sentences :
-        print i
+    mark_sentences_with_searched_word(word_versions[0], prepared_sentences)
+    mark_sentences_with_searched_word(word_versions[1], prepared_sentences)
 except IOError as e:
     print e.message

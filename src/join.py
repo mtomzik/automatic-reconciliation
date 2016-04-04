@@ -2,10 +2,10 @@
 import sys
 import sentence_tokenizing
 from sentence_tokenizing import * 
-import online_version
-from online_version import *
-import offline_version
-from offline_version import *
+import multiservice_tagging
+from multiservice_tagging import *
+import concraft_tagging
+from concraft_tagging import *
 import congruence_finder
 from congruence_finder import * 
 import synonyms_finder
