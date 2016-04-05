@@ -1,25 +1,13 @@
  Barcelona, Hiszpania, 23 lutego 2016 r. /PRNewswire / - Verizon i czołowe firmy technologiczne z całego świata pracują nad tym, by sieć 5G stała się rzeczywistością. Ruszyły próby terenowe z udziałem firmy Verizon i jej partnerów z Forum Technologii 5G, którzy zajmują się innowacją i wspieraniem ekosystemu 5G. Ericsson, Intel, Nokia, Samsung Electronics America, Inc oraz Qualcomm współpracowali z firmą Verizon, by energicznie doprowadzić do wzajemnego dostosowania technologii i osiągnąć postęp w zakresie sieci zewnętrznych, prowadząc próby charakterystyk technologii 5G w warunkach normalnego środowiska.
-
 Wideo prób terenowych Forum Technologicznego Verizon 5G można obejrzeć lub załadować odwiedzając witrynę: https://youtu.be/XFjmrzw-9EM.
-
 Do grona partnerów Forum Technologii Verizon 5G zalicza się firmy ze wszystkich dziedzin telekomunikacji i technologii, w tym Apple, Cisco, Ericsson, Intel, LG, Nokia, Samsung oraz Qualcomm. Wspólne Forum Technologii 5G działa na rzecz wprowadzenia norm technicznych dla technologii 5G. Poza współpracą z czołowymi firmami z dziedziny telekomunikacji i technologii Forum Technologiczne Verizon 5G zrzesza także grupy kapitału inwestycyjnego z zachodniego i wschodniego wybrzeża, których działania są ukierunkowane na nowo powstające technologie.
-
 "Verizon nadal przyśpiesza innowacje w związku z technologią 5G poprzez ścisłą współpracę z naszymi partnerami - powiedział Ed Chan, senior wiceprezydent ds. strategii i planowania technologicznego. - To my, jako pierwsi wprowadziliśmy 4G w całym kraju. Za pomocą 5G ponownie wspieramy innowację w technologiach, by wprowadzić nowe rozwiązania na rynek, udostępniają je naszym klientom. Nasze próby techniczne potwierdzają, że sieć 5G staje się rzeczywistością i jest gotowa, by zastosować ją komercyjnie. Zbudowaliśmy w tym celu kilka obszarów próbnych, zapewniając rzeczywiste warunki".
-
 Potwierdzenie wyników
-
 Badania terenowe z partnerami technologii 5G obejmują szeroki zakres scenariuszy w ramach jej zastosowania. Bezprzewodowe i mobilne systemy 5G zostały połączone z siecią szkieletową firmy Verizon, a sygnał nadawano pomiędzy środowiskiem zewnętrznym i wewnętrznym. Badania przeprowadzano zarówno w budynkach mieszkalnych, jak i komercyjnych. Próby te imitują scenariusze wprost z rzeczywistości, stosując strefy fal milimetrowych, w tym strefy wydzielone dla spektrum 5G w oświadczeniu FCC o proponowanych zasadach. Charakterystyki propagacji tych zakresów fal podkreśliło zastosowanie w kilku instalacjach stałych i mobilnych, pozwalając na wydajność w granicach kilku gigabitów na sekundę. Opóźnienie mierzono w zakresie milisekundy na różnych odległościach, zapewniając doskonałą jakość obrazu.
-
 Poza tymi unikalnymi próbami przeprowadzanymi z każdym z partnerów na wszystkich obszarach próbnych, dokonywano oceny następujących elementów:
-
 - innowacje anteny w spektrum milimetrowym i centymetrowym w różnych warunkach zastosowania;
-
 - kształtowanie wiązki, śledzenie wiązki, technologia MIMO (multiple-input multiple-output) i spektrum szerokopasmowe (częstotliwości 200 MHz - 1 GHz);
-
 - elastyczność zastosowania i czynniki kształtu anteny, w tym wielkość w przypadku anten mmWave.
-
 Verizon postanowił poprowadzić sieć i wspierać innowację 5G. Opracowywana obecnie technologia 5G to podstawa naszych przyszłych połączeń i centrum naszego świata cyfrowego. Prędkość kilka gibabitów na sekundę i opóźnienie rzędu jednej milisekundy pozwoli wykorzystać zalety światłowodów w systemach bezprzewodowych. Ponadto sieć 5G będzie posiadała zdolność do obsługi gwałtownie rosnącej liczby podłączonych urządzeń i podołać eksplozji Internetu rzeczy.
-
 "Planujemy istotnie poszerzyć zakres prób w okresie kilku najbliższych miesięcy. Korzystając z tak szybkiej innowacji, chcemy szybko podjąć kilka kluczowych decyzji technicznych i szybko przejść do spraw przygotowań komercyjnych i przeprowadzenia prób jeszcze w bieżącym roku - oświadczył Adam Koeppe, wiceprezes ds. planowania technologii sieciowych, który kieruje próbami technicznymi. - Współpracujemy ściśle z naszymi równorzędnymi operatorami na rynkach azjatyckich, ponieważ jesteśmy zgodni co do realizacji technologii 5G w 2017 roku".
-
-Verizon Communications Inc. (NYSE, Nasdaq: VZ) zatrudnia różnorodny personel liczący 177.700 osób i osiągnął w 2015 r. dochody o wysokości prawie 132 miliard dolarów. Firma Verizon prowadzi najbardziej niezawodną sieć bezprzewodową w Ameryce, z ponad 112 milionami połączeń klientów detalicznych w całym kraju. Firma ma siedzibę w Nowym Jorku i oferuje usługi komunikacyjne i rozrywkowe, stosując najnowocześniejszą sieć światłowodową w USA i oferuje klientom na całym świecie zintegrowane rozwiązania dla firm. 
+Verizon Communications Inc. (NYSE, Nasdaq: VZ) zatrudnia różnorodny personel liczący 177.700 osób i osiągnął w 2015 r. dochody o wysokości prawie 132 miliard dolarów. Firma Verizon prowadzi najbardziej niezawodną sieć bezprzewodową w Ameryce, z ponad 112 milionami połączeń klientów detalicznych w całym kraju. Firma ma siedzibę w Nowym Jorku i oferuje usługi komunikacyjne i rozrywkowe, stosując najnowocześniejszą sieć światłowodową w USA i oferuje klientom na całym świecie zintegrowane rozwiązania dla firm.
