@@ -5,6 +5,13 @@ from concraft_tagging import *
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
+def get_tags(word, data_structure) :
+    for entity in data_structure :
+        dictionary = entity[1]
+        for k in dictionary.keys() :
+            if(dictionary[k][-1] == word) :
+                return dictionary[k][0]
+
 def find_occurence(word, sentence_dictionary) : #word to słowo w wersji podstawowej
     for k in sentence_dictionary.keys() :
         value = sentence_dictionary[k]
@@ -23,18 +30,13 @@ def check_if_sentence_has_valid_ppron3_form(word_tags, sentence_dictionary) :
         info = sentence_dictionary[k]
         tags = info[0].split(":")
         if(tags[0] == "ppron3") :
-            i = 1
-            is_equal = True
-            while(is_equal and i <4) :
-                if(not(tags[i]==word_tags_splitted[i])) :
-                    return False
-                i += 1
-    return is_equal
+            return (tags[1]==word_tags_splitted[1] and tags[3]==word_tags_splitted[3])
+
 
 def check_of_sentence_has_other_noun(word, sentence_dictionary) :
     found_nouns = []
     for k in sentence_dictionary.keys() :
-        word_type = sentence_dictionary[k].split(":")[0]
+        word_type = sentence_dictionary[k][0].split(":")[0]
         word_from_sentence  = sentence_dictionary[k][-1]
         if(word_from_sentence!=word and word_type in ["subst", "noun"]) :
             found_nouns.append(k)
