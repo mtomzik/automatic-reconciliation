@@ -1,0 +1,31 @@
+plik, słowo
+1.txt, korpus
+2.txt, bezrobocie
+3.txt, stacja
+4.txt, medycyna
+5.txt, firma
+6.txt, powieść
+7.txt, mord / morderca
+8.txt, tramwaj
+9.txt, szkoła
+10.txt, sprawdzian
+11.txt, dług
+12.txt, koń
+13.txt, pismo / pismoznawcy
+14.txt, cmentarz
+15.txt, dziecko
+16.txt, rodzina
+17.txt, kot
+18.txt, jezioro
+19.txt, wyspa
+20.txt, kobieta
+21.txt, [on]
+22.txt, spot
+23.txt, bezdzietny
+24.txt, aborcja
+25.txt, kobieta
+26.txt, myśli
+27.txt, Racibórz
+28.txt, znacznik
+29.txt, algorytm
+30.txt, kryminalistyka
