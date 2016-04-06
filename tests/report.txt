@@ -54,22 +54,6 @@ analyzing file: /home/tusia/Desktop/magisterka/sample_texts/3.txt
 ================ 
 
 analyzing file: /home/tusia/Desktop/magisterka/sample_texts/4.txt
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
 /home/tusia/Desktop/magisterka/sample_texts/4.txt
 [u' Medycyna pracy nie powinna by\u0107 sprowadzana tylko do orzekania o zdolno\u015bci do pracy , gdy\u017c lekarze o takiej specjalizacji s\u0105 \u015bwietnie przygotowani tak\u017ce do szeroko rozumianej dzia\u0142alno\u015bci profilaktycznej i doradczej .', {'zdolno\xc5\x9bci': (u'subst:sg:loc:f', u'zdolno\u015b\u0107'), 'by\xc4\x87': (u'inf:imperf', u'by\u0107'), 'rozumianej': (u'ppas:sg:gen:f:imperf:aff', u'rozumie\u0107'), 'dzia\xc5\x82alno\xc5\x9bci': (u'subst:sg:gen:f', u'dzia\u0142alno\u015b\u0107'), 'doradczej': (u'adj:sg:gen:f:pos', u'doradczy'), 'profilaktycznej': (u'adj:sg:gen:f:pos', u'profilaktyczny'), 'przygotowani': (u'ppas:pl:nom:m1:perf:aff', u'przygotowa\u0107'), 'i': (u'conj', u'i'), 'orzekania': (u'ger:sg:gen:n:imperf:aff', u'orzeka\u0107'), 'specjalizacji': (u'subst:sg:loc:f', u'specjalizacja'), 'szeroko': (u'adv:pos', u'szeroko'), ',': (u'interp', u','), '.': (u'interp', u'.'), 'sprowadzana': (u'ppas:sg:nom:f:imperf:aff', u'sprowadza\u0107'), 'do': (u'prep:gen', u'do'), 'powinna': (u'winien:sg:f:imperf', u'powinien'), 'tylko': (u'qub', u'tylko'), 'tak\xc5\xbce': (u'qub', u'tak\u017ce'), 'nie': (u'qub', u'nie'), 's\xc4\x85': (u'fin:pl:ter:imperf', u'by\u0107'), 'takiej': (u'adj:sg:loc:f:pos', u'taki'), 'Medycyna': (u'subst:sg:nom:f', u'medycyna'), 'pracy': (u'subst:sg:gen:f', u'praca'), 'gdy\xc5\xbc': (u'comp', u'gdy\u017c'), 'o': (u'prep:loc', u'o'), 'lekarze': (u'subst:pl:nom:m1', u'lekarz'), '\xc5\x9bwietnie': (u'adv:pos', u'\u015bwietnie')}, True]
 [u' Na lepsz\u0105 opiek\u0119 nad pracownikami jak najszybciej trzeba znale\u017a\u0107 pieni\u0105dze - stwierdzili uczestnicy konferencji \u201e Pracodawcy w systemie ochrony zdrowia \u201d , kt\xf3r\u0105 zorganizowano podczas Kongresu Wyzwa\u0144 Zdrowotnych .', {'Zdrowotnych': (u'adj:pl:gen:n:pos', u'zdrowotny'), 'znale\xc5\xba\xc4\x87': (u'inf:perf', u'znale\u017a\u0107'), 'Na': (u'prep:acc', u'na'), 'trzeba': (u'pred', u'trzeba'), 'systemie': (u'subst:sg:loc:m3', u'system'), 'nad': (u'prep:inst:nwok', u'nad'), 'Kongresu': (u'subst:sg:gen:m3', u'kongres'), 'pieni\xc4\x85dze': (u'subst:pl:acc:m3', u'pieni\u0105dz'), 'zorganizowano': (u'imps:perf', u'zorganizowa\u0107'), '-': (u'interp', u'-'), ',': (u'interp', u','), '.': (u'interp', u'.'), 'kt\xc3\xb3r\xc4\x85': (u'adj:sg:acc:f:pos', u'kt\xf3ry'), 'jak': (u'adv:pos', u'jak'), 'Wyzwa\xc5\x84': (u'subst:pl:gen:n', u'wyzwanie'), 'ochrony': (u'subst:sg:gen:f', u'ochrona'), 'pracownikami': (u'subst:pl:inst:m1', u'pracownik'), 'podczas': (u'prep:gen', u'podczas'), 'zdrowia': (u'subst:sg:gen:n', u'zdrowie'), 'opiek\xc4\x99': (u'subst:sg:acc:f', u'opieka'), 'konferencji': (u'subst:sg:gen:f', u'konferencja'), 'najszybciej': (u'adv:sup', u'szybko'), 'stwierdzili': (u'praet:pl:m1:perf', u'stwierdzi\u0107'), '\xe2\x80\x9d': (u'interp', u'\u201d'), '\xe2\x80\x9e': (u'interp', u'\u201e'), 'w': (u'prep:loc:nwok', u'w'), 'uczestnicy': (u'subst:pl:nom:m1', u'uczestnik'), 'Pracodawcy': (u'subst:pl:nom:m1', u'pracodawca'), 'lepsz\xc4\x85': (u'adj:sg:acc:f:com', u'dobry')}, False]
@@ -128,10 +112,6 @@ analyzing file: /home/tusia/Desktop/magisterka/sample_texts/4.txt
 ================ 
 
 analyzing file: /home/tusia/Desktop/magisterka/sample_texts/5.txt
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
 /home/tusia/Desktop/magisterka/sample_texts/5.txt
 [u' Barcelona , Hiszpania , 23 lutego 2016 r .', {'23': (u'adj:sg:gen:m3:pos', u'23'), 'lutego': (u'subst:sg:gen:m3', u'luty'), ',': (u'interp', u','), 'Barcelona': (u'subst:sg:nom:f', u'Barcelona'), '.': (u'interp', u'.'), 'r': (u'brev:pun', u'R'), 'Hiszpania': (u'subst:sg:nom:f', u'Hiszpania'), '2016': (u'adj:sg:gen:m3:pos', u'2016')}, False]
 [u' / PRNewswire / - Verizon i czo\u0142owe firmy technologiczne z ca\u0142ego \u015bwiata pracuj\u0105 nad tym , by sie\u0107 5G sta\u0142a si\u0119 rzeczywisto\u015bci\u0105 .', {'sie\xc4\x87': (u'subst:sg:nom:f', u'sie\u0107'), 'technologiczne': (u'adj:pl:nom:f:pos', u'technologiczny'), '5G': (u'subst:sg:nom:n', u'5G'), 'PRNewswire': (u'subst:sg:nom:m3', u'PRNewswire'), 'si\xc4\x99': (u'qub', u'si\u0119'), 'Verizon': (u'subst:sg:nom:f', u'Verizon'), '-': (u'interp', u'-'), ',': (u'interp', u','), '/': (u'interp', u'/'), '.': (u'interp', u'.'), 'firmy': (u'subst:pl:nom:f', u'firma'), 'czo\xc5\x82owe': (u'adj:pl:nom:f:pos', u'czo\u0142owy'), 'tym': (u'subst:sg:inst:n', u'to'), 'rzeczywisto\xc5\x9bci\xc4\x85': (u'subst:sg:inst:f', u'rzeczywisto\u015b\u0107'), 'sta\xc5\x82a': (u'praet:sg:f:perf', u'sta\u0107'), 'pracuj\xc4\x85': (u'fin:pl:ter:imperf', u'pracowa\u0107'), 'by': (u'comp', u'by'), 'z': (u'prep:gen:nwok', u'z'), 'nad': (u'prep:inst:nwok', u'nad'), 'i': (u'conj', u'i'), 'ca\xc5\x82ego': (u'adj:sg:gen:m3:pos', u'ca\u0142y'), '\xc5\x9bwiata': (u'subst:sg:gen:m3', u'\u015bwiat')}, True]
@@ -331,11 +311,6 @@ analyzing file: /home/tusia/Desktop/magisterka/sample_texts/12.txt
 ================ 
 
 analyzing file: /home/tusia/Desktop/magisterka/sample_texts/13.txt
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
 /home/tusia/Desktop/magisterka/sample_texts/13.txt
 [u' Biegli pismoznawcy potrafi\u0105 wykry\u0107 fa\u0142szerstwo r\xf3\u017cnych dokument\xf3w , np. testamentu .', {'wykry\xc4\x87': (u'inf:perf', u'wykry\u0107'), 'potrafi\xc4\x85': (u'fin:pl:ter:imperf', u'potrafi\u0107'), 'testamentu': (u'subst:sg:gen:m3', u'testament'), ',': (u'interp', u','), 'pismoznawcy': (u'subst:pl:nom:m1', u'pismoznawcy'), 'r\xc3\xb3\xc5\xbcnych': (u'adj:pl:gen:m3:pos', u'r\xf3\u017cny'), 'dokument\xc3\xb3w': (u'subst:pl:gen:m3', u'dokument'), '.': (u'interp', u'.'), 'np': (u'brev:npun', u'np'), 'fa\xc5\x82szerstwo': (u'subst:sg:acc:n', u'fa\u0142szerstwo'), 'Biegli': (u'adj:pl:nom:m1:pos', u'bieg\u0142y')}, False]
 [u' Ale analiza charakteru pisma jest wykorzystywana w kryminalistyce tak\u017ce w inny spos\xf3b .', {'Ale': (u'conj', u'ale'), 'w': (u'prep:acc:nwok', u'w'), 'wykorzystywana': (u'ppas:sg:nom:f:imperf:aff', u'wykorzystywa\u0107'), 'charakteru': (u'subst:sg:gen:m3', u'charakter'), 'pisma': (u'subst:sg:gen:n', u'pismo'), 'spos\xc3\xb3b': (u'subst:sg:acc:m3', u'spos\xf3b'), 'tak\xc5\xbce': (u'qub', u'tak\u017ce'), 'analiza': (u'subst:sg:nom:f', u'analiza'), 'inny': (u'adj:sg:acc:m3:pos', u'inny'), 'jest': (u'fin:sg:ter:imperf', u'by\u0107'), 'kryminalistyce': (u'subst:sg:loc:f', u'kryminalistyka'), '.': (u'interp', u'.')}, False]
@@ -405,8 +380,6 @@ analyzing file: /home/tusia/Desktop/magisterka/sample_texts/14.txt
 ================ 
 
 analyzing file: /home/tusia/Desktop/magisterka/sample_texts/15.txt
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
 /home/tusia/Desktop/magisterka/sample_texts/15.txt
 [u' W Polsce ka\u017cdego roku notuje si\u0119 ok . 15 tys . zagini\u0119\u0107 , z czego du\u017c\u0105 cz\u0119\u015b\u0107 stanowi\u0105 nieletni .', {'si\xc4\x99': (u'qub', u'si\u0119'), 'ok': (u'qub', u'OK'), 'notuje': (u'fin:sg:ter:imperf', u'notowa\u0107'), 'du\xc5\xbc\xc4\x85': (u'adj:sg:acc:f:pos', u'du\u017cy'), 'zagini\xc4\x99\xc4\x87': (u'subst:pl:gen:n', u'zagini\u0119cie'), 'Polsce': (u'subst:sg:loc:f', u'Polska'), ',': (u'interp', u','), '.': (u'interp', u'.'), 'nieletni': (u'subst:pl:nom:m1', u'nieletni'), 'roku': (u'subst:sg:gen:m3', u'rok'), 'czego': (u'subst:sg:gen:n', u'co'), 'ka\xc5\xbcdego': (u'adj:sg:gen:m3:pos', u'ka\u017cdy'), 'W': (u'prep:loc:nwok', u'w'), '15': (u'num:pl:nom:m3:rec', u'15'), 'stanowi\xc4\x85': (u'fin:pl:ter:imperf', u'stanowi\u0107'), 'z': (u'prep:gen:nwok', u'z'), 'cz\xc4\x99\xc5\x9b\xc4\x87': (u'subst:sg:acc:f', u'cz\u0119\u015b\u0107'), 'tys': (u'brev:pun', u'tys')}, False]
 [u' Wed\u0142ug Policji w 2011 r . zg\u0142oszono a\u017c 4330 takich przypadk\xf3w .', {'zg\xc5\x82oszono': (u'imps:perf', u'zg\u0142osi\u0107'), 'Policji': (u'subst:sg:gen:f', u'policja'), 'przypadk\xc3\xb3w': (u'subst:pl:gen:m3', u'przypadek'), 'a\xc5\xbc': (u'qub', u'a\u017c'), '4330': (u'num:pl:acc:m3:rec', u'4330'), '.': (u'interp', u'.'), 'takich': (u'adj:pl:gen:m3:pos', u'taki'), 'r': (u'brev:pun', u'R'), 'w': (u'prep:loc:nwok', u'w'), 'Wed\xc5\x82ug': (u'prep:gen', u'wed\u0142ug'), '2011': (u'adj:sg:loc:m3:pos', u'2011')}, False]
@@ -751,10 +724,6 @@ analyzing file: /home/tusia/Desktop/magisterka/sample_texts/18.txt
 ================ 
 
 analyzing file: /home/tusia/Desktop/magisterka/sample_texts/19.txt
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
 /home/tusia/Desktop/magisterka/sample_texts/19.txt
 [u' T\u0119 trudn\u0105 nazw\u0119 warto zapami\u0119ta\u0107 .', {'warto': (u'pred', u'warto'), 'trudn\xc4\x85': (u'adj:sg:acc:f:pos', u'trudny'), '.': (u'interp', u'.'), 'T\xc4\x99': (u'adj:sg:acc:f:pos', u'ten'), 'zapami\xc4\x99ta\xc4\x87': (u'inf:perf', u'zapami\u0119ta\u0107'), 'nazw\xc4\x99': (u'subst:sg:acc:f', u'nazwa')}, False]
 [u' Barsakelmes - niegdy\u015b niedost\u0119pna wyspa na Morzu Aralskim - to jedno z najbardziej tajemniczych miejsc na mapie by\u0142ego ZSRR .', {'ZSRR': (u'subst:sg:gen:m3', u'ZSRR'), 'Barsakelmes': (u'subst:sg:nom:m1', u'Barsakelmes'), 'mapie': (u'subst:sg:loc:f', u'mapa'), 'tajemniczych': (u'adj:pl:gen:n:pos', u'tajemniczy'), '.': (u'interp', u'.'), 'na': (u'prep:loc', u'na'), 'by\xc5\x82ego': (u'adj:sg:gen:m3:pos', u'by\u0142y'), 'wyspa': (u'subst:sg:nom:f', u'wyspa'), '-': (u'interp', u'-'), 'Aralskim': (u'adj:sg:loc:n:pos', u'aralski'), 'niegdy\xc5\x9b': (u'adv', u'niegdy\u015b'), 'najbardziej': (u'adv:sup', u'bardzo'), 'to': (u'pred', u'to'), 'niedost\xc4\x99pna': (u'adj:sg:nom:f:pos', u'niedost\u0119pny'), 'miejsc': (u'subst:pl:gen:n', u'miejsce'), 'jedno': (u'adj:sg:nom:n:pos', u'jeden'), 'z': (u'prep:gen:nwok', u'z'), 'Morzu': (u'subst:sg:loc:n', u'morze')}, True]
@@ -920,8 +889,6 @@ analyzing file: /home/tusia/Desktop/magisterka/sample_texts/22.txt
 ================ 
 
 analyzing file: /home/tusia/Desktop/magisterka/sample_texts/23.txt
-/bin/sh: 1: Syntax error: Unterminated quoted string
-/bin/sh: 1: Syntax error: Unterminated quoted string
 /home/tusia/Desktop/magisterka/sample_texts/23.txt
 [u' Osoby bezdzietne , niezale\u017cnie od tego czy z wyboru czy z przymusu , patrz\u0105 na niekt\xf3re zachowania par z dzie\u0107mi z lekk\u0105 irytacj\u0105 , zdziwieniem , a nawet niedowierzaniem .', {'bezdzietne': (u'adj:pl:nom:f:pos', u'bezdzietny'), 'niedowierzaniem': (u'subst:sg:inst:n', u'niedowierzanie'), 'wyboru': (u'subst:sg:gen:m3', u'wyb\xf3r'), 'czy': (u'conj', u'czy'), 'lekk\xc4\x85': (u'adj:sg:inst:f:pos', u'lekki'), 'patrz\xc4\x85': (u'fin:pl:ter:imperf', u'patrze\u0107'), 'par': (u'subst:pl:gen:f', u'para'), 'irytacj\xc4\x85': (u'subst:sg:inst:f', u'irytacja'), 'na': (u'prep:acc', u'na'), ',': (u'interp', u','), '.': (u'interp', u'.'), 'zachowania': (u'subst:pl:acc:n', u'zachowanie'), 'Osoby': (u'subst:pl:nom:f', u'osoba'), 'przymusu': (u'subst:sg:gen:m3', u'przymus'), 'tego': (u'subst:sg:gen:n', u'to'), 'zdziwieniem': (u'subst:sg:inst:n', u'zdziwienie'), 'dzie\xc4\x87mi': (u'subst:pl:inst:n', u'dziecko'), 'a': (u'conj', u'a'), 'nawet': (u'qub', u'nawet'), 'od': (u'prep:gen:nwok', u'od'), 'niekt\xc3\xb3re': (u'adj:pl:acc:n:pos', u'niekt\xf3ry'), 'niezale\xc5\xbcnie': (u'adv:pos', u'niezale\u017cnie'), 'z': (u'prep:inst:nwok', u'z')}, True]
 [u' Nie da si\u0119 tego wyt\u0142umaczy\u0107 ani zrozumie\u0107 dop\xf3ki nie do\u015bwiadczy si\u0119 macierzy\u0144stwa czy ojcostwa .', {'si\xc4\x99': (u'qub', u'si\u0119'), 'zrozumie\xc4\x87': (u'inf:perf', u'zrozumie\u0107'), 'czy': (u'conj', u'czy'), 'ojcostwa': (u'subst:sg:gen:n', u'ojcostwo'), 'Nie': (u'qub', u'nie'), 'macierzy\xc5\x84stwa': (u'subst:sg:gen:n', u'macierzy\u0144stwo'), 'ani': (u'conj', u'ani'), 'da': (u'fin:sg:ter:perf', u'da\u0107'), 'dop\xc3\xb3ki': (u'comp', u'dop\xf3ki'), '.': (u'interp', u'.'), 'do\xc5\x9bwiadczy': (u'fin:sg:ter:perf', u'do\u015bwiadczy\u0107'), 'wyt\xc5\x82umaczy\xc4\x87': (u'inf:perf', u'wyt\u0142umaczy\u0107'), 'nie': (u'qub', u'nie'), 'tego': (u'subst:sg:gen:n', u'to')}, False]
