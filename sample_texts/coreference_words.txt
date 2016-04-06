@@ -19,7 +19,7 @@ plik, słowo
 18.txt, jezioro
 19.txt, wyspa
 20.txt, kobieta
-21.txt, [on]
+21.txt, on
 22.txt, spot
 23.txt, bezdzietny
 24.txt, aborcja
