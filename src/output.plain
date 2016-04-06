@@ -1,0 +1,180 @@
+Korpus	space
+	korpus	subst:sg:acc:m3
+	korpus	subst:sg:nom:m3	disamb
+jest	space
+	być	fin:sg:ter:imperf	disamb
+niezbędny	space
+	niezbędny	adj:sg:acc:m3:pos
+	niezbędny	adj:sg:nom:m1:pos
+	niezbędny	adj:sg:nom:m2:pos
+	niezbędny	adj:sg:nom:m3:pos	disamb
+	niezbędny	adj:sg:voc:m1:pos
+	niezbędny	adj:sg:voc:m2:pos
+	niezbędny	adj:sg:voc:m3:pos
+do	space
+	do	prep:gen	disamb
+	do	subst:pl:acc:n
+	do	subst:pl:dat:n
+	do	subst:pl:gen:n
+	do	subst:pl:inst:n
+	do	subst:pl:loc:n
+	do	subst:pl:nom:n
+	do	subst:pl:voc:n
+	do	subst:sg:acc:n
+	do	subst:sg:dat:n
+	do	subst:sg:gen:n
+	do	subst:sg:inst:n
+	do	subst:sg:loc:n
+	do	subst:sg:nom:n
+	do	subst:sg:voc:n
+pracy	space
+	praca	subst:sg:dat:f
+	praca	subst:sg:gen:f	disamb
+	praca	subst:sg:loc:f
+językoznawcom	space
+	językoznawca	subst:pl:dat:m1	disamb
+,	space
+	,	interp	disamb
+ale	space
+	Al	depr:pl:nom:m2
+	Al	depr:pl:voc:m2
+	Ala	subst:pl:acc:f
+	Ala	subst:pl:nom:f
+	Ala	subst:pl:voc:f
+	Ali	depr:pl:nom:m2
+	Ali	depr:pl:voc:m2
+	Alo	depr:pl:nom:m2
+	Alo	depr:pl:voc:m2
+	ale	conj	disamb
+	ale	qub
+korzystają	space
+	korzystać	fin:pl:ter:imperf	disamb
+zeń	space
+	Zenia	subst:pl:gen:f	disamb
+często	space
+	często	adv:pos	disamb
+także	space
+	także	qub	disamb
+informatycy	space
+	informatyk	subst:pl:nom:m1	disamb
+	informatyk	subst:pl:voc:m1
+,	space
+	,	interp	disamb
+historycy	space
+	historyk	subst:pl:nom:m1	disamb
+	historyk	subst:pl:voc:m1
+,	space
+	,	interp	disamb
+bibliotekarze	space
+	bibliotekarz	depr:pl:nom:m2
+	bibliotekarz	depr:pl:voc:m2
+	bibliotekarz	subst:pl:nom:m1	disamb
+	bibliotekarz	subst:pl:voc:m1
+,	space
+	,	interp	disamb
+badacze	space
+	badacz	depr:pl:nom:m2
+	badacz	depr:pl:voc:m2
+	badacz	subst:pl:nom:m1	disamb
+	badacz	subst:pl:voc:m1
+literatury	space
+	literatura	subst:pl:acc:f
+	literatura	subst:pl:nom:f
+	literatura	subst:pl:voc:f
+	literatura	subst:sg:gen:f	disamb
+i	space
+	I	brev:pun
+	i	conj	disamb
+	i	interj
+	i	qub
+kultury	space
+	kultura	subst:pl:acc:f
+	kultura	subst:pl:nom:f
+	kultura	subst:pl:voc:f
+	kultura	subst:sg:gen:f	disamb
+oraz	space
+	oraz	conj	disamb
+specjaliści	space
+	specjalista	subst:pl:nom:m1	disamb
+	specjalista	subst:pl:voc:m1
+z	space
+	Z	brev:pun
+	z	prep:acc:nwok
+	z	prep:gen:nwok	disamb
+	z	prep:inst:nwok
+	z	qub
+wielu	space
+	Wiele	subst:sg:dat:n
+	Wiele	subst:sg:loc:n
+	wiele	num:pl:acc:m1:rec
+	wiele	num:pl:dat:f:congr
+	wiele	num:pl:dat:m1:congr
+	wiele	num:pl:dat:m2:congr
+	wiele	num:pl:dat:m3:congr
+	wiele	num:pl:dat:n:congr
+	wiele	num:pl:gen:f:congr	disamb
+	wiele	num:pl:gen:m1:congr
+	wiele	num:pl:gen:m2:congr
+	wiele	num:pl:gen:m3:congr
+	wiele	num:pl:gen:n:congr
+	wiele	num:pl:inst:f:congr
+	wiele	num:pl:inst:m1:congr
+	wiele	num:pl:inst:m2:congr
+	wiele	num:pl:inst:m3:congr
+	wiele	num:pl:inst:n:congr
+	wiele	num:pl:loc:f:congr
+	wiele	num:pl:loc:m1:congr
+	wiele	num:pl:loc:m2:congr
+	wiele	num:pl:loc:m3:congr
+	wiele	num:pl:loc:n:congr
+	wiele	num:pl:nom:m1:rec
+	wiele	num:pl:voc:m1:rec
+innych	space
+	inny	adj:pl:acc:m1:pos
+	inny	adj:pl:gen:f:pos	disamb
+	inny	adj:pl:gen:m1:pos
+	inny	adj:pl:gen:m2:pos
+	inny	adj:pl:gen:m3:pos
+	inny	adj:pl:gen:n:pos
+	inny	adj:pl:loc:f:pos
+	inny	adj:pl:loc:m1:pos
+	inny	adj:pl:loc:m2:pos
+	inny	adj:pl:loc:m3:pos
+	inny	adj:pl:loc:n:pos
+	inny	subst:pl:acc:m1
+	inny	subst:pl:gen:m1
+	inny	subst:pl:loc:m1
+dziedzin	space
+	dziedzina	subst:pl:gen:f	disamb
+humanistycznych	space
+	humanistyczny	adj:pl:acc:m1:pos
+	humanistyczny	adj:pl:gen:f:pos	disamb
+	humanistyczny	adj:pl:gen:m1:pos
+	humanistyczny	adj:pl:gen:m2:pos
+	humanistyczny	adj:pl:gen:m3:pos
+	humanistyczny	adj:pl:gen:n:pos
+	humanistyczny	adj:pl:loc:f:pos
+	humanistyczny	adj:pl:loc:m1:pos
+	humanistyczny	adj:pl:loc:m2:pos
+	humanistyczny	adj:pl:loc:m3:pos
+	humanistyczny	adj:pl:loc:n:pos
+i	space
+	I	brev:pun
+	i	conj	disamb
+	i	interj
+	i	qub
+informatycznych	space
+	informatyczny	adj:pl:acc:m1:pos
+	informatyczny	adj:pl:gen:f:pos	disamb
+	informatyczny	adj:pl:gen:m1:pos
+	informatyczny	adj:pl:gen:m2:pos
+	informatyczny	adj:pl:gen:m3:pos
+	informatyczny	adj:pl:gen:n:pos
+	informatyczny	adj:pl:loc:f:pos
+	informatyczny	adj:pl:loc:m1:pos
+	informatyczny	adj:pl:loc:m2:pos
+	informatyczny	adj:pl:loc:m3:pos
+	informatyczny	adj:pl:loc:n:pos
+.	space
+	.	interp	disamb
+

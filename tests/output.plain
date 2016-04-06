@@ -1,0 +1,80 @@
+Wszystkie	space
+	wszystek	adj:pl:acc:f:pos
+	wszystek	adj:pl:acc:m2:pos
+	wszystek	adj:pl:acc:m3:pos
+	wszystek	adj:pl:acc:n:pos
+	wszystek	adj:pl:nom:f:pos
+	wszystek	adj:pl:nom:m2:pos
+	wszystek	adj:pl:nom:m3:pos
+	wszystek	adj:pl:nom:n:pos	disamb
+	wszystek	adj:pl:voc:f:pos
+	wszystek	adj:pl:voc:m2:pos
+	wszystek	adj:pl:voc:m3:pos
+	wszystek	adj:pl:voc:n:pos
+	wszystek	adj:sg:acc:n:pos
+	wszystek	adj:sg:nom:n:pos
+	wszystek	adj:sg:voc:n:pos
+opisane	space
+	opisać	ppas:pl:acc:f:perf:aff
+	opisać	ppas:pl:acc:f:perf:neg
+	opisać	ppas:pl:acc:m2:perf:aff
+	opisać	ppas:pl:acc:m2:perf:neg
+	opisać	ppas:pl:acc:m3:perf:aff
+	opisać	ppas:pl:acc:m3:perf:neg
+	opisać	ppas:pl:acc:n:perf:aff
+	opisać	ppas:pl:acc:n:perf:neg
+	opisać	ppas:pl:nom:f:perf:aff
+	opisać	ppas:pl:nom:f:perf:neg
+	opisać	ppas:pl:nom:m2:perf:aff
+	opisać	ppas:pl:nom:m2:perf:neg
+	opisać	ppas:pl:nom:m3:perf:aff
+	opisać	ppas:pl:nom:m3:perf:neg
+	opisać	ppas:pl:nom:n:perf:aff	disamb
+	opisać	ppas:pl:nom:n:perf:neg
+	opisać	ppas:pl:voc:f:perf:aff
+	opisać	ppas:pl:voc:f:perf:neg
+	opisać	ppas:pl:voc:m2:perf:aff
+	opisać	ppas:pl:voc:m2:perf:neg
+	opisać	ppas:pl:voc:m3:perf:aff
+	opisać	ppas:pl:voc:m3:perf:neg
+	opisać	ppas:pl:voc:n:perf:aff
+	opisać	ppas:pl:voc:n:perf:neg
+	opisać	ppas:sg:acc:n:perf:aff
+	opisać	ppas:sg:acc:n:perf:neg
+	opisać	ppas:sg:nom:n:perf:aff
+	opisać	ppas:sg:nom:n:perf:neg
+	opisać	ppas:sg:voc:n:perf:aff
+	opisać	ppas:sg:voc:n:perf:neg
+powyżej	space
+	powyżej	adv	disamb
+	powyżej	prep:gen
+kroki	space
+	krok	subst:pl:acc:m3
+	krok	subst:pl:nom:m3
+	krok	subst:pl:voc:m3
+	kroki	subst:pl:acc:n
+	kroki	subst:pl:nom:n	disamb
+	kroki	subst:pl:voc:n
+stanowią	space
+	stanowić	fin:pl:ter:imperf	disamb
+ramy	space
+	Rama	depr:pl:nom:m2
+	Rama	depr:pl:voc:m2
+	Rama	subst:sg:gen:m1
+	rama	subst:pl:acc:f
+	rama	subst:pl:nom:f
+	rama	subst:pl:voc:f
+	rama	subst:sg:gen:f
+	ramy	subst:pl:acc:n	disamb
+	ramy	subst:pl:nom:n
+	ramy	subst:pl:voc:n
+kryminalistyki	space
+	kryminalistyk	depr:pl:nom:m2
+	kryminalistyk	depr:pl:voc:m2
+	kryminalistyka	subst:pl:acc:f
+	kryminalistyka	subst:pl:nom:f
+	kryminalistyka	subst:pl:voc:f
+	kryminalistyka	subst:sg:gen:f	disamb
+.	space
+	.	interp	disamb
+
