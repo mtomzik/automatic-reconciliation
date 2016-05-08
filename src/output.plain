@@ -1,180 +1,177 @@
-Korpus	space
-	korpus	subst:sg:acc:m3
-	korpus	subst:sg:nom:m3	disamb
-jest	space
-	być	fin:sg:ter:imperf	disamb
-niezbędny	space
-	niezbędny	adj:sg:acc:m3:pos
-	niezbędny	adj:sg:nom:m1:pos
-	niezbędny	adj:sg:nom:m2:pos
-	niezbędny	adj:sg:nom:m3:pos	disamb
-	niezbędny	adj:sg:voc:m1:pos
-	niezbędny	adj:sg:voc:m2:pos
-	niezbędny	adj:sg:voc:m3:pos
-do	space
-	do	prep:gen	disamb
-	do	subst:pl:acc:n
-	do	subst:pl:dat:n
-	do	subst:pl:gen:n
-	do	subst:pl:inst:n
-	do	subst:pl:loc:n
-	do	subst:pl:nom:n
-	do	subst:pl:voc:n
-	do	subst:sg:acc:n
-	do	subst:sg:dat:n
-	do	subst:sg:gen:n
-	do	subst:sg:inst:n
-	do	subst:sg:loc:n
-	do	subst:sg:nom:n
-	do	subst:sg:voc:n
-pracy	space
-	praca	subst:sg:dat:f
-	praca	subst:sg:gen:f	disamb
-	praca	subst:sg:loc:f
-językoznawcom	space
-	językoznawca	subst:pl:dat:m1	disamb
+Sondaż	space
+	sondaż	subst:sg:acc:m3
+	sondaż	subst:sg:nom:m3	disamb
+TNS	space
+	TNS	ign
+	TNS	adj:sg:nom:f:pos
+	TNS	adj:sg:nom:m3:pos
+	TNS	subst:sg:acc:m3
+	TNS	subst:sg:gen:f
+	TNS	subst:sg:gen:m3
+	TNS	subst:sg:gen:n
+	TNS	subst:sg:inst:m3
+	TNS	subst:sg:nom:f
+	TNS	subst:sg:nom:m3	disamb
+	TNS	subst:sg:nom:n
+Polska	space
+	Polska	subst:sg:nom:f	disamb
+	polski	adj:sg:nom:f:pos
+	polski	adj:sg:voc:f:pos
+został	space
+	zostać	praet:sg:m1:perf
+	zostać	praet:sg:m2:perf
+	zostać	praet:sg:m3:perf	disamb
+zrealizowany	space
+	zrealizować	ppas:sg:acc:m3:perf:aff
+	zrealizować	ppas:sg:nom:m1:perf:aff
+	zrealizować	ppas:sg:nom:m1:perf:neg
+	zrealizować	ppas:sg:nom:m2:perf:aff
+	zrealizować	ppas:sg:nom:m2:perf:neg
+	zrealizować	ppas:sg:nom:m3:perf:aff	disamb
+	zrealizować	ppas:sg:nom:m3:perf:neg
+	zrealizować	ppas:sg:voc:m1:perf:aff
+	zrealizować	ppas:sg:voc:m1:perf:neg
+	zrealizować	ppas:sg:voc:m2:perf:aff
+	zrealizować	ppas:sg:voc:m2:perf:neg
+	zrealizować	ppas:sg:voc:m3:perf:aff
+	zrealizować	ppas:sg:voc:m3:perf:neg
+w	space
+	W	brev:pun
+	w	prep:acc:nwok
+	w	prep:loc:nwok	disamb
+dniach	space
+	dzień	subst:pl:loc:m3	disamb
+5	space
+	5	ign
+	5	adj:pl:loc:m3:pos
+	5	adj:sg:gen:f:pos
+	5	adj:sg:loc:m3:pos
+	5	adj:sg:nom:m3:pos	disamb
+	5	num:pl:acc:m3:rec
+	5	num:pl:gen:m2:congr
+	5	num:pl:gen:m3:congr
+	5	num:pl:nom:m1:rec
+	5	num:pl:nom:m3:congr
+	5	num:pl:nom:m3:rec
+–	space
+	–	interp	disamb
+11	space
+	11	ign
+	11	adj:sg:acc:m3:pos
+	11	adj:sg:gen:m3:com
+	11	adj:sg:gen:m3:pos
+	11	adj:sg:gen:m3:sup
+	11	adj:sg:gen:n:pos
+	11	adj:sg:inst:m3:pos
+	11	adj:sg:loc:m3:pos
+	11	adj:sg:nom:m3:pos	disamb
+	11	num:pl:acc:m3:rec
+	11	num:pl:gen:m3:congr
+lutego	space
+	luty	adj:sg:acc:m1:pos
+	luty	adj:sg:acc:m2:pos
+	luty	adj:sg:gen:m1:pos
+	luty	adj:sg:gen:m2:pos
+	luty	adj:sg:gen:m3:pos
+	luty	adj:sg:gen:n:pos
+	luty	subst:sg:gen:m3	disamb
+br	space
+	BR	subst:sg:acc:m3
+	BR	subst:sg:nom:m3	disamb
+.	none
+	.	interp	disamb
+na	space
+	na	interj
+	na	prep:acc
+	na	prep:loc	disamb
+ogólnopolskiej	space
+	ogólnopolski	adj:sg:dat:f:pos
+	ogólnopolski	adj:sg:gen:f:pos
+	ogólnopolski	adj:sg:loc:f:pos	disamb
 ,	space
 	,	interp	disamb
-ale	space
-	Al	depr:pl:nom:m2
-	Al	depr:pl:voc:m2
-	Ala	subst:pl:acc:f
-	Ala	subst:pl:nom:f
-	Ala	subst:pl:voc:f
-	Ali	depr:pl:nom:m2
-	Ali	depr:pl:voc:m2
-	Alo	depr:pl:nom:m2
-	Alo	depr:pl:voc:m2
-	ale	conj	disamb
-	ale	qub
-korzystają	space
-	korzystać	fin:pl:ter:imperf	disamb
-zeń	space
-	Zenia	subst:pl:gen:f	disamb
-często	space
-	często	adv:pos	disamb
-także	space
-	także	qub	disamb
-informatycy	space
-	informatyk	subst:pl:nom:m1	disamb
-	informatyk	subst:pl:voc:m1
-,	space
-	,	interp	disamb
-historycy	space
-	historyk	subst:pl:nom:m1	disamb
-	historyk	subst:pl:voc:m1
-,	space
-	,	interp	disamb
-bibliotekarze	space
-	bibliotekarz	depr:pl:nom:m2
-	bibliotekarz	depr:pl:voc:m2
-	bibliotekarz	subst:pl:nom:m1	disamb
-	bibliotekarz	subst:pl:voc:m1
-,	space
-	,	interp	disamb
-badacze	space
-	badacz	depr:pl:nom:m2
-	badacz	depr:pl:voc:m2
-	badacz	subst:pl:nom:m1	disamb
-	badacz	subst:pl:voc:m1
-literatury	space
-	literatura	subst:pl:acc:f
-	literatura	subst:pl:nom:f
-	literatura	subst:pl:voc:f
-	literatura	subst:sg:gen:f	disamb
+reprezentatywnej	space
+	reprezentatywny	adj:sg:dat:f:pos
+	reprezentatywny	adj:sg:gen:f:pos
+	reprezentatywny	adj:sg:loc:f:pos	disamb
+próbie	space
+	próba	subst:sg:dat:f
+	próba	subst:sg:loc:f	disamb
+1002	space
+	1002	ign
+	1002	adj:pl:gen:m1:pos
+	1002	adj:sg:gen:m3:pos
+	1002	adj:sg:loc:f:pos
+	1002	adj:sg:nom:f:pos
+	1002	num:pl:acc:m1:congr	disamb
+	1002	num:pl:dat:m3:congr
+	1002	num:pl:gen:m1:congr
+	1002	num:pl:gen:m3:congr
+	1002	num:pl:nom:m1:rec
+	1002	num:pl:nom:m3:congr
+mieszkańców	space
+	mieszkaniec	subst:pl:acc:m1
+	mieszkaniec	subst:pl:gen:m1	disamb
+Polski	space
+	Polska	subst:pl:acc:f
+	Polska	subst:pl:nom:f
+	Polska	subst:pl:voc:f
+	Polska	subst:sg:gen:f	disamb
+	Polski	subst:sg:nom:m1
+	Polski	subst:sg:voc:m1
+	polski	adj:sg:acc:m3:pos
+	polski	adj:sg:nom:m1:pos
+	polski	adj:sg:nom:m2:pos
+	polski	adj:sg:nom:m3:pos
+	polski	adj:sg:voc:m1:pos
+	polski	adj:sg:voc:m2:pos
+	polski	adj:sg:voc:m3:pos
+	polski	subst:sg:acc:m3
+	polski	subst:sg:nom:m3
+	polski	subst:sg:voc:m3
+w	space
+	W	brev:pun
+	w	prep:acc:nwok
+	w	prep:loc:nwok	disamb
+wieku	space
+	wiek	subst:sg:gen:m3
+	wiek	subst:sg:loc:m3	disamb
+	wiek	subst:sg:voc:m3
+	wieko	subst:sg:dat:n
+	wieko	subst:sg:loc:n
+15	space
+	15	ign
+	15	adj:sg:gen:m3:pos
+	15	adj:sg:gen:n:pos
+	15	adj:sg:loc:m3:pos
+	15	num:pl:acc:m3:rec
+	15	num:pl:gen:m2:congr
+	15	num:pl:gen:m3:congr	disamb
+	15	num:pl:gen:m3:rec
+	15	num:pl:gen:n:congr
+	15	num:pl:nom:m1:rec
+	15	num:pl:nom:m3:rec
 i	space
 	I	brev:pun
 	i	conj	disamb
 	i	interj
 	i	qub
-kultury	space
-	kultura	subst:pl:acc:f
-	kultura	subst:pl:nom:f
-	kultura	subst:pl:voc:f
-	kultura	subst:sg:gen:f	disamb
-oraz	space
-	oraz	conj	disamb
-specjaliści	space
-	specjalista	subst:pl:nom:m1	disamb
-	specjalista	subst:pl:voc:m1
-z	space
-	Z	brev:pun
-	z	prep:acc:nwok
-	z	prep:gen:nwok	disamb
-	z	prep:inst:nwok
-	z	qub
-wielu	space
-	Wiele	subst:sg:dat:n
-	Wiele	subst:sg:loc:n
-	wiele	num:pl:acc:m1:rec
-	wiele	num:pl:dat:f:congr
-	wiele	num:pl:dat:m1:congr
-	wiele	num:pl:dat:m2:congr
-	wiele	num:pl:dat:m3:congr
-	wiele	num:pl:dat:n:congr
-	wiele	num:pl:gen:f:congr	disamb
-	wiele	num:pl:gen:m1:congr
-	wiele	num:pl:gen:m2:congr
-	wiele	num:pl:gen:m3:congr
-	wiele	num:pl:gen:n:congr
-	wiele	num:pl:inst:f:congr
-	wiele	num:pl:inst:m1:congr
-	wiele	num:pl:inst:m2:congr
-	wiele	num:pl:inst:m3:congr
-	wiele	num:pl:inst:n:congr
-	wiele	num:pl:loc:f:congr
-	wiele	num:pl:loc:m1:congr
-	wiele	num:pl:loc:m2:congr
-	wiele	num:pl:loc:m3:congr
-	wiele	num:pl:loc:n:congr
-	wiele	num:pl:nom:m1:rec
-	wiele	num:pl:voc:m1:rec
-innych	space
-	inny	adj:pl:acc:m1:pos
-	inny	adj:pl:gen:f:pos	disamb
-	inny	adj:pl:gen:m1:pos
-	inny	adj:pl:gen:m2:pos
-	inny	adj:pl:gen:m3:pos
-	inny	adj:pl:gen:n:pos
-	inny	adj:pl:loc:f:pos
-	inny	adj:pl:loc:m1:pos
-	inny	adj:pl:loc:m2:pos
-	inny	adj:pl:loc:m3:pos
-	inny	adj:pl:loc:n:pos
-	inny	subst:pl:acc:m1
-	inny	subst:pl:gen:m1
-	inny	subst:pl:loc:m1
-dziedzin	space
-	dziedzina	subst:pl:gen:f	disamb
-humanistycznych	space
-	humanistyczny	adj:pl:acc:m1:pos
-	humanistyczny	adj:pl:gen:f:pos	disamb
-	humanistyczny	adj:pl:gen:m1:pos
-	humanistyczny	adj:pl:gen:m2:pos
-	humanistyczny	adj:pl:gen:m3:pos
-	humanistyczny	adj:pl:gen:n:pos
-	humanistyczny	adj:pl:loc:f:pos
-	humanistyczny	adj:pl:loc:m1:pos
-	humanistyczny	adj:pl:loc:m2:pos
-	humanistyczny	adj:pl:loc:m3:pos
-	humanistyczny	adj:pl:loc:n:pos
-i	space
-	I	brev:pun
-	i	conj	disamb
-	i	interj
-	i	qub
-informatycznych	space
-	informatyczny	adj:pl:acc:m1:pos
-	informatyczny	adj:pl:gen:f:pos	disamb
-	informatyczny	adj:pl:gen:m1:pos
-	informatyczny	adj:pl:gen:m2:pos
-	informatyczny	adj:pl:gen:m3:pos
-	informatyczny	adj:pl:gen:n:pos
-	informatyczny	adj:pl:loc:f:pos
-	informatyczny	adj:pl:loc:m1:pos
-	informatyczny	adj:pl:loc:m2:pos
-	informatyczny	adj:pl:loc:m3:pos
-	informatyczny	adj:pl:loc:n:pos
+więcej	space
+	dużo	adv:com
+	więcej	adv
+	więcej	num:pl:acc:f:rec
+	więcej	num:pl:acc:m1:rec
+	więcej	num:pl:acc:m2:rec
+	więcej	num:pl:acc:m3:rec	disamb
+	więcej	num:pl:acc:n:rec
+	więcej	num:pl:nom:f:rec
+	więcej	num:pl:nom:m1:rec
+	więcej	num:pl:nom:m2:rec
+	więcej	num:pl:nom:m3:rec
+	więcej	num:pl:nom:n:rec
+lat	space
+	lato	subst:pl:gen:n
+	rok	subst:pl:gen:m3	disamb
 .	space
 	.	interp	disamb
 

@@ -8,4 +8,4 @@ słowosieć, synset
 dołożyć limit szukanych zdań (tak długo aż nie będzie słowa z takimi samymi tagami)
 refaktoring!!!!
 testy na tekstach -> zbiór 30-50słów mających po 3 koreferencje. oznaczyć czy poprawnie zamieniło ostatnie i czy wcześniej nie powinno być zmienione (czy czegoś nie pominął)
-tydzień po świętach ddl
+tydzień po świętach ddl 
