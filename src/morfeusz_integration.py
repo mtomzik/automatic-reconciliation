@@ -27,3 +27,14 @@ def get_variant(tags, variants_list) :
     for i in variants_list :
         if tags == i[1] :
             return i[0]
+        else :
+            taggs = tags.split(":")
+            var = i[1].split(":")
+            if(taggs[0] == var[0] and taggs[1] == var[1]) :
+                if(taggs[2] == var[2] or taggs[2] in var[2].split(".")) :
+                    if(taggs[3] == var[3] or taggs[3] in var[3].split(".")) :
+                            return i[0]
+
+
+
+

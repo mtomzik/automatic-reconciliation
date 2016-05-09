@@ -24,3 +24,14 @@ def tag(sentences_list, version, tagger) :
             entity = [sentence, dictionary, needs_refactor]
             output.append(entity)
     return output
+
+
+def tag_word(word, version, tagger) :
+    if(version == "offline") :
+        concraft = call_concraft(word)
+        dictionary = parse_concraft_output()
+        return dictionary
+    elif (version == "online" and check_tagger(tagger)) :
+        multiservice = call_multiservice(word, tagger)
+        dictionary = parse_multiservice_output(multiservice)
+        return dictionary

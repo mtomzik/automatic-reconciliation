@@ -1,28 +1,31 @@
 # -*- coding: utf-8 -*-
 import sys
 import requests
-import  json
+import json
 
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-def build_url(word_to_search) :
-    return "http://api.slowosiec.clarin-pl.eu:8080/plwordnet-api/synsets/search?lemma=" + word_to_search +"&&&partOfSpeech=noun&&"
+def build_url(word_to_search, relation_type) :
+    return "http://api.slowosiec.clarin-pl.eu:8080/plwordnet-api/synsets/search?lemma=" + word_to_search +"&&&partOfSpeech=noun&relationType=" + str(relation_type) + "&&&&&"
 
 def send_get(url) :
     request = requests.get(url)
     return request.content
 
 def parse_content(content) :
+    words = []
     parsed = json.loads(content)
     # print json.dumps(parsed, indent=4, sort_keys=True)
     # for i in parsed :
     #     print str(i["id"]) + " -> " + i["name"]
     for i in parsed :
-        print i["lemma"]["word"]
+        words.append(i["lemma"]["word"])
+    return words
 
 
-url = build_url("wyspa")
-# url = "http://api.slowosiec.clarin-pl.eu:8080/plwordnet-api/relationTypes"
-content = send_get(url)
-parse_content(content)
+# url = build_url("szkoła", 10)
+# # url = "http://api.slowosiec.clarin-pl.eu:8080/plwordnet-api/relationTypes"
+# content = send_get(url)
+# for i in parse_content(content) :
+#     print i

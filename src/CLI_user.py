@@ -50,7 +50,7 @@ try :
     mark_sentences_with_searched_word(word_versions[0], prepared_sentences)
     mark_sentences_with_searched_word(word_versions[1], prepared_sentences)
     mark_sentences_with_ppron_coreference(word_versions[0], tags, prepared_sentences)
-    for i in prepared_sentences :
-        print i
+    # for i in prepared_sentences :
+    #     print i
 except IOError as e:
     print e.message
