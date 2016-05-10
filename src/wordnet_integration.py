@@ -29,3 +29,8 @@ url = build_url("koń", 60)
 content = send_get(url)
 for i in parse_content(content) :
     print i
+url2 = build_url("koń", 10)
+content2 = send_get(url2)
+print "________________________"
+for i in parse_content(content2) :
+    print i
