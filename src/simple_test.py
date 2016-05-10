@@ -39,25 +39,24 @@ def build_new_tags(tags, gender_to_replace) :
 def change_word() :
     pass
 
-input_file = "/home/tusia/Desktop/magisterka/sample_texts/31.txt"
+input_file = "/home/tusia/Desktop/magisterka/sample_texts/1.txt"
 try :
     text = ""
     tok = "text.txt"
     call_toki(input_file, tok)
     sentences = parse_toki_output(tok)
-    word = "pociąg"
+    word = "korpus"
     word_versions = [word, word.capitalize()]
     prepared_sentences = tag(sentences, "offline", "WCRFT")
     tags = get_tags(word_versions[0], prepared_sentences)
     mark_sentences_with_searched_word(word_versions[0], prepared_sentences)
     mark_sentences_with_searched_word(word_versions[1], prepared_sentences)
     mark_sentences_with_ppron_coreference(word_versions[0], tags, prepared_sentences)
-    word_sub = "jazda"
+    word_sub = "podstawa"
     possibilities = get_possibilities(word_sub)
     poss_list = parse_morfeusz_output(possibilities)
     tagged = tag_word(word_sub, "online", "WCRFT")
     word_sub_tags = tagged.values()[0][0]
-    print word_sub + " -> " + word_sub_tags
     gender = word_sub_tags.split(":")[3]
     for sentence in prepared_sentences :
         if(sentence[2]) :
@@ -68,7 +67,6 @@ try :
             base = get_word(dictionary, word)
             new_tags_base = build_new_tags(word_tags, gender)
             new_base = get_variant(new_tags_base, poss_list)
-            print new_base
             sentence[0] =  sentence[0].replace(base, new_base)
             for word_n in words :
                 word_poss = get_possibilities(dictionary[word_n][1])
