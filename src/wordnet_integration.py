@@ -24,8 +24,8 @@ def parse_content(content) :
     return words
 
 
-# url = build_url("szkoła", 10)
+url = build_url("koń", 60)
 # # url = "http://api.slowosiec.clarin-pl.eu:8080/plwordnet-api/relationTypes"
-# content = send_get(url)
-# for i in parse_content(content) :
-#     print i
+content = send_get(url)
+for i in parse_content(content) :
+    print i

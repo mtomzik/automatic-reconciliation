@@ -1,4 +1,24 @@
-komputer	none
-	komputer	subst:sg:acc:m3
-	komputer	subst:sg:nom:m3	disamb
+Idę	space
+	Ida	subst:sg:acc:f
+	iść	fin:sg:pri:imperf	disamb
+do	space
+	do	prep:gen	disamb
+	do	subst:pl:acc:n
+	do	subst:pl:dat:n
+	do	subst:pl:gen:n
+	do	subst:pl:inst:n
+	do	subst:pl:loc:n
+	do	subst:pl:nom:n
+	do	subst:pl:voc:n
+	do	subst:sg:acc:n
+	do	subst:sg:dat:n
+	do	subst:sg:gen:n
+	do	subst:sg:inst:n
+	do	subst:sg:loc:n
+	do	subst:sg:nom:n
+	do	subst:sg:voc:n
+Katowic	space
+	Katowice	subst:pl:gen:n	disamb
+.	space
+	.	interp	disamb
 

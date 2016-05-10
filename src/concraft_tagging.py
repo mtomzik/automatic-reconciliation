@@ -2,8 +2,6 @@
 import sys
 import subprocess
 import codecs
-import sentence_tokenizing
-from sentence_tokenizing import *
 
 #wersja offline - wymaga zainstalowanego Concrafta
 
@@ -37,14 +35,14 @@ def solve_conflicts(lines_list) :
 				return lines_list
 
 def prepare_tags(lines_list) : #struktura postaci słowo -> (tagi, wersja podstawowa)
-	tags = {}
-	paired = chunks(solve_conflicts(lines_list), 2)
-	for i in paired : 
+    tags = {}
+    paired = chunks(solve_conflicts(lines_list), 2) #TU
+    for i in paired :
 		key = i[0][0].encode("utf-8")
 		value = i[1][1]
 		base_form = i[1][0]
 		tags[key] = (value, base_form)
-	return tags
+    return tags
 
 def parse_concraft_output() : 
 	tags = {}
