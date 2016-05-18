@@ -9,6 +9,7 @@ from utils.check_utils import *
 from utils.tagger_utils import *
 from congruence_finder import find_congruent_words
 from morfeusz_integration import *
+from output_formatting import *
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
@@ -67,6 +68,8 @@ try :
             base = get_word(dictionary, word)
             new_tags_base = build_new_tags(word_tags, gender)
             new_base = get_variant(new_tags_base, poss_list)
+            if(base[0].isupper()) :
+                base = base.capitalize()
             sentence[0] =  sentence[0].replace(base, new_base)
             for word_n in words :
                 word_poss = get_possibilities(dictionary[word_n][1])
@@ -74,11 +77,13 @@ try :
                 congruent_word_tags = dictionary[word_n][0]
                 new_tags = build_new_tags(congruent_word_tags, gender)
                 new_form = get_variant(new_tags, word_poss_list)
+                if(word_n[0].isupper()) :
+                    word_n = word_n.capitalize()
                 sentence[0] =  sentence[0].replace(word_n, new_form)
             text += sentence[0]
         else :
             text += sentence[0]
-    print text
+    print work(prepare_text(text))
 
 except IOError as e:
     print e.message
